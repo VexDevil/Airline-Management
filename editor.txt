@@ -1,4 +1,4 @@
-/*This Code is Coded By Ashish Poudel*/
+/*This Code is Coded By Sarvjeet Chaudhary*/
 
 #include<iostream>
 #include<cstring>
@@ -396,28 +396,4 @@ int main(){
 	outputmodule object;
 	
 	object.initial();
-		
-	while(1){
-		int choice;
-		cout<<"\n                 Enter Your Choice:";
-		cin>>choice;
-		switch(choice){
-			case 1:
-				object.list_cities(N);
-				cout<<"\n\n                 Press 1 to Continue...";
-				int cont;
-				cin>>cont;
-				if(cont==1){
-					object.initial();
-				}
-				break;
-			case 2:
-				obj1.user_input(userchoice);
-				//passing user inputted source and destination to display_price function of outputmodule
-				object.display_price(userchoice[0],userchoice[1],N,username);
-				break;
-		}
-	}
-return 0;
-}
-
+	
